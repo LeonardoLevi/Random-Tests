@@ -1,0 +1,23 @@
+# Lista de Notas de alunos
+#notas_aluno = []
+#while len(notas_aluno) < 8:
+#    notas_aluno2 = input(f'Digite a nota do aluno: ')
+#    notas_aluno.append(notas_aluno2)
+#print(f'Suas notas são: {notas_aluno}')
+
+
+
+# Lista de conteudos de aula
+
+# lista = list()
+# conteudo_lista = list()
+# numero = int(input(f'Digite o numero de conteudos '))
+# 
+# for indice in range(1,numero+1):
+#     lista = str(input(f'Digite o {indice}ª conteudo '))
+# 
+#     while lista in conteudo_lista:
+#         print('Já adicionado, tente novamente')
+#         lista = str(input(f'Digite o {indice}ª conteudo '))
+#     conteudo_lista.append(lista)
+# print(conteudo_lista)
