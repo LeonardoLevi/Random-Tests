@@ -1,0 +1,27 @@
+lista_notas = [8,7,5,2]
+print(f'Essa é sua primeira nota {lista_notas[0]}')
+print(f'Essa é sua segunda nota {lista_notas[1]}')
+print(f'Essa é sua terceira nota {lista_notas[2]}')
+print(f'Essa é sua quarta nota {lista_notas[3]}')
+
+lista_nomes = ['Leo','Maria','Pedro','Junior']
+print(lista_nomes)
+print(f'Esse é o primeiro nome {lista_nomes[0]}')
+print(f'Esse é o segundo nome {lista_nomes[1]}')
+print(f'Esse é o terceiro nome {lista_nomes[2]}')
+print(f'Esse é o quarto nome {lista_nomes[3]}')
+
+lista_nomes.append('Alice')
+print(lista_nomes)
+
+lista_nomes.insert(1,'Fernanda')
+print(lista_nomes)
+
+lista_nomes.remove('Fernanda')
+print(lista_nomes)
+
+del lista_nomes[0]
+print(lista_nomes)
+
+lista_dois = lista_nomes.pop(-0)
+print(lista_dois)
