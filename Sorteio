@@ -1,0 +1,8 @@
+import math
+import random
+n1 = int(input("Coloque o primeiro numero: "))
+n2 = int(input("Coloque o segundo numero: "))
+
+sorteio = random.randint(n1,n2)
+
+print(f'O numero sorteado é: {sorteio}')
